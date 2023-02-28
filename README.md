@@ -2,6 +2,8 @@
 
 Q-Sys module to create an animation using a knob control.
 
+[![Luacheck](https://github.com/scsole/q-sys-module-animation/actions/workflows/luacheck.yml/badge.svg)](https://github.com/scsole/q-sys-module-animation/actions/workflows/luacheck.yml)
+
 ## Quick start
 
 1. Clone or download this repository to the Modules directory
