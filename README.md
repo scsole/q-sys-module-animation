@@ -17,7 +17,7 @@ Add a LED to the UCI and assign it a CSS class which has been styled as an Image
 ```lua
 local Animation = require('animation')
 
-local myAnimation = Animation.New(Controls.AnimationKnob, 12, 0.01)
+local myAnimation = Animation.New(Controls.AnimationLed, 12, 0.01)
 myAnimation:Start()
 myAnimation:Stop()
 ```
