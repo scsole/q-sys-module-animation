@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "type": "LuaModule",
+  "author": "sebastian.sole@strawberrysound.co.nz",
+  "description": "Lua template module",
+  "requiredVersion": "9.5"
+}
