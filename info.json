@@ -2,6 +2,6 @@
   "version": "1.0.0",
   "type": "LuaModule",
   "author": "sebastian.sole@strawberrysound.co.nz",
-  "description": "Module to create an animation using a knob control.",
+  "description": "Create an animation using a knob control.",
   "requiredVersion": "9.5"
 }
