@@ -13,14 +13,15 @@ Q-Sys module to create an animation using a knob control.
 ## Usage
 
 Add a knob to the UCI and assign it a CSS class which has been styled as an Image Filmstrip. See [UCI
-Styles](https://q-syshelp.qsc.com/q-sys_9.6/Index.htm#Schematic_Library/uci_styles.htm?Highlight=filmstrip) for
-examples. Change the units to `Integer` and adjust the Min and Max values. For example, and animation with 10 frames
-would use the values `0` and `9` respectively. The CSS file should use integers as the values and not positions.
+Styles](https://q-syshelp.qsc.com/Index.htm#Schematic_Library/uci_styles.htm?Highlight=filmstrip) for examples. Change
+the units to `Integer` and adjust the Min and Max values to `0` and `total frames - 1`. For example, an animation with
+10 frames would use the values `0` and `9` respectively. The CSS file should use integers as the values and not
+positions.
 
 ```lua
 local Animation = require('animation')
 
-local myAnimation = Animation:New(Controls.AnimationLed, 12, 0.1)
+local myAnimation = Animation:New(Controls.AnimationKnob, 12, 0.1)
 myAnimation:Start()
 myAnimation:Stop()
 myAnimation:Step()
