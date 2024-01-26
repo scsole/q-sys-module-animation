@@ -2,6 +2,6 @@
   "version": "1.0.1",
   "type": "LuaModule",
   "author": "sebastian.sole@strawberrysound.co.nz",
-  "description": "Create an animation using a knob control.",
+  "description": "Create an animation using a state trigger.",
   "requiredVersion": "9.5"
 }
