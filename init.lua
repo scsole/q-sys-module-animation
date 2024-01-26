@@ -4,7 +4,7 @@ local Animation = {}
 --- @param control table The control to animate based on value, usually a knob or fader.
 --- @param frames number? The number of frames in the animation, defaults to 10.
 --- @param period number? The time each frame should be visible for, default 0.1s.
---- @return table # The animation object, or nil when given a nil reference.
+--- @return table # The animation object.
 function Animation:New(control, frames, period)
   local o = {
     Control = control,
