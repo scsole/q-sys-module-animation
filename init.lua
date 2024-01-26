@@ -29,7 +29,9 @@ end
 
 --- Start the animation.
 function Animation:Start()
-  self.Timer:Start(self.Period)
+  if not self.Timer:IsRunning() then
+    self.Timer:Start(self.Period)
+  end
 end
 
 -- Stop the animation.
