@@ -29,3 +29,21 @@ myAnimation:Start()
 myAnimation:Stop()
 myAnimation:Step()
 ```
+
+### Example CSS
+
+```css
+.animation {
+  color: transparent;
+  border-color: transparent;
+  background-color: transparent;
+  background-image: url(gif/animation/frame_00_delay-0.1s.gif);
+}
+.animation:value(1) {
+  background-image: url(gif/animation/frame_01_delay-0.1s.gif);
+}
+.animation:value(2) {
+  background-image: url(gif/animation/frame_02_delay-0.1s.gif);
+}
+/* etc. */
+```
